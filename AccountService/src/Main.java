@@ -12,8 +12,8 @@ public class Main {
 
         AccountService service = new AccountServiceImpl(accounts);
 
-        System.out.println(service.findAccountByOwnerId(3 ));
-        //service.countAccountsWithBalanceGreaterThan(109);
-        //service.countAccountsWithBalanceGreaterThan(1);
+        System.out.println(service.findAccountByOwnerId(2));
+        service.countAccountsWithBalanceGreaterThan(109);
+        service.countAccountsWithBalanceGreaterThan(1);
     }
 }
