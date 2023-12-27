@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner1 = new Scanner(System.in);
-        //System.out.print("Enter a number of elements you want to store: ");
+        System.out.print("Enter a number of elements you want to store: ");
         int arrayLength = scanner1.nextInt();
         int[] array = new int[arrayLength];
-        //System.out.println("Enter the elements in the array separated by spaces:");
+        System.out.println("Enter the elements in the array separated by spaces:");
         for (int i = 0; i < arrayLength; i++) {
             array[i] = scanner1.nextInt();
         }
